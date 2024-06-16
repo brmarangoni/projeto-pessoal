@@ -168,7 +168,7 @@ body {
 
 .btn { /*terceiro quadrado */
     background-color: #0b8e44;
-    color: var(--color-white);
+    color: white;
     font-weight: 500;
     padding: .5rem 1rem; /*tamanho botao*/
     border-radius: 10px;
@@ -225,24 +225,24 @@ body {
 .content-skills {
     height: 100%;
     width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.text-skills { /**/
-    font-size: 1].2rem;
-    text-transform: uppercase;
+.text-skills { /*escolha seu núcleo*/
+    font-size: 1.5rem;
+    text-transform upprcase;
     font-weight: bold;
-    color: var(--color-destaque);
+    color: green;
+    text-align: center;
 }
 
-.skills-icons {
-    width: 100%;
-    max-width: 90%;
+.skills-icons { /*cidades*/
+    width: 80%;
+    max-width: 100%;
     gap: 10px;
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
 }
