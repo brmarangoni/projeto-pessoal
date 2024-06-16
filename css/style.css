@@ -23,7 +23,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: var(--color-black);
+    background-color: #166534;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .card {
-    background-color: var(--color-white);
+    background-color: #f9fafb;
     padding: 1rem;
 }
 
@@ -86,9 +86,9 @@ body {
     justify-content: center;
 }
 
-.img-user img {
-    width: 100px;
-    border-radius: 50px;
+.img-user img { /*logo*/
+    width: 75px; 
+    border-radius: 30px;
 }
 
 .info-user {
@@ -107,7 +107,7 @@ body {
 }
 
 .info-user span {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: var(--color-destaque);
 }
@@ -119,7 +119,7 @@ body {
     color: var(--color-black);
 }
 
-/************** Projeto*/
+/************** Projeto/ segunda parte */
 .projeto {
     width: 100%;
     height: 40%;
@@ -141,20 +141,20 @@ body {
 }
 
 .text-projeto {
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 450;
     color: var(--color-destaque);
 }
 
 .img-projeto {
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .img-projeto img {
-    width: 280px;
+    width: 220px;
 }
 
 .btn-projeto {
@@ -166,13 +166,14 @@ body {
     padding-top: 1rem;
 }
 
-.btn {
-    background-color: var(--color-destaque);
+.btn { /*terceiro quadrado */
+    background-color: #0b8e44;
     color: var(--color-white);
-    font-weight: 600;
-    padding: .7rem 1.3rem;
+    font-weight: 500;
+    padding: .5rem 1rem; /*tamanho botao*/
     border-radius: 10px;
     text-decoration: none;
+    font-size:smaller;
 }
 
 /************** WIDGET 2*/
@@ -201,9 +202,9 @@ body {
 
 .box-social {
     background-color: var(--color-destaque);
-    height: 90px;
-    width: 90px;
-    border-radius: 10px;
+    height: 0px;
+    width: 200px;
+    border-radius: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,7 +215,7 @@ body {
     color: var(--color-white);
 }
 
-/************** Skills*/
+/************** cidades*/
 .skills {
     width: 100%;
     height: 100%;
@@ -230,8 +231,8 @@ body {
     align-items: center;
 }
 
-.text-skills {
-    font-size: 1.2rem;
+.text-skills { /**/
+    font-size: 1].2rem;
     text-transform: uppercase;
     font-weight: bold;
     color: var(--color-destaque);
@@ -319,14 +320,14 @@ body {
     gap: 1rem;
 }
 
-.text-servicos h1 {
-    font-size: var(--font-title-mobile);
+.text-servicos h1 { /*profissionais para lhe auxiliar*/
+    font-size: 1.4rem;
     color: var(--color-black);
 }
 
 .text-servicos span {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 40;
     color: var(--color-gray);
 }
 
@@ -373,7 +374,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: var(--color-destaque);
-    padding: 1rem; /* Certificando que a seção de contato tenha padding */
+     /* Certificando que a seção de contato tenha padding */
 }
 
 .content-contato {
@@ -387,15 +388,15 @@ body {
     gap: 1rem;
 }
 
-.text-contato h1 {
-    font-size: var(--font-title-mobile);
+.text-contato h1 { /*boletim*/
+    font-size: 1.2rem;
     color: var(--color-white);
 }
 
 .lista-contato {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .1rem;
 }
 
 .lista-contato a {
@@ -416,13 +417,14 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+   
 }
 
 .btn2 {
     background-color: var(--color-black);
     color: var(--color-white);
-    font-weight: 600;
-    padding: .7rem 1.3rem;
+    font-weight: 700;
+    padding: .5rem 1.3rem;
     border-radius: 10px;
     text-decoration: none;
 }
