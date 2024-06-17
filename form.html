@@ -1,312 +1,124 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/stylee.css" />
-    <title>Formulário de cadastro</title>
-  </head>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="rg_menor">RG Menor:</label>
+        <input type="text" id="rg_menor" name="rg_menor">
+        
+        <label for="cpf_menor">CPF Menor:</label>
+        <input type="text" id="cpf_menor" name="cpf_menor">
+        
+        <label for="endereco_responsavel">Endereço Responsável:</label>
+        <input type="text" id="endereco_responsavel" name="endereco_responsavel">
+        
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero">
+        
+        <label for="complemento">Complemento:</label>
+        <input type="text" id="complemento" name="complemento">
+        
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro">
+        
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade">
+        
+        <label for="nascimento">Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento">
+        
+        <label for="escola">Escola:</label>
+        <input type="text" id="escola" name="escola">
+        
+        <label for="serie">Série:</label>
+        <input type="text" id="serie" name="serie">
+        
+        <label for="nome_responsavel">Nome Responsável:</label>
+        <input type="text" id="nome_responsavel" name="nome_responsavel">
+        
+        <label for="rg">RG:</label>
+        <input type="text" id="rg" name="rg">
+        
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf">
+        
+        <label for="telefone">Telefone/WhatsApp:</label>
+        <input type="text" id="telefone" name="telefone">
+        
+        <label for="alergia">Alergia:</label>
+        <input type="checkbox" id="alergia" name="alergia">
+        
+        <label for="asma">Asma:</label>
+        <input type="checkbox" id="asma" name="asma">
+        
+        <label for="bombinha">Bombinha:</label>
+        <input type="checkbox" id="bombinha" name="bombinha">
+        
+        <label for="diabetes">Diabetes:</label>
+        <input type="checkbox" id="diabetes" name="diabetes">
+        
+        <label for="medicamento">Medicamento:</label>
+        <input type="checkbox" id="medicamento" name="medicamento">
+        
+        <label for="observacao">Observação:</label>
+        <textarea id="observacao" name="observacao"></textarea>
+        
+        <label for="nucleo">Núcleo:</label>
+        <input type="text" id="nucleo" name="nucleo">
+        
+        <label for="horario">Horário:</label>
+        <input type="text" id="horario" name="horario">
+        
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data">
+        
+        <label for="qual_alergia">Qual Alergia?</label>
+        <input type="text" id="qual_alergia" name="qual_alergia">
+        
+        <label for="qual_medicamento">Qual Medicamento?</label>
+        <input type="text" id="qual_medicamento" name="qual_medicamento">
+        
+        <button type="submit">Enviar</button>
+    </form>
 
-  <body>
-    <div class="container">
-      <div class="form">
-        <form id="formulario">
-          <div class="form-header">
-            <div class="title">
-              <hi>CADASTRE-SE</hi>
-            </div>
-          </div>
-          <div class="input-group">
-            <div class="input-box">
-              <label for="name">Nome do Aluno</label>
-              <input
-                id="name"
-                type="text"
-                name="name"
-                placeholder="Digite seu nome completo"
-                
-              />
-            </div>
-            <div class="input-box">
-              <label for="rg">RG Aluno</label>
-              <input
-                id="rg"
-                type="text"
-                name="rg"
-                placeholder="Digite o RG do aluno"
-                
-              />
-            </div>
-            <div class="input-box">
-              <label for="cpf">CPF Aluno</label>
-              <input
-                id="cpf"
-                type="cpf"
-                name="cpf"
-                placeholder="Digite o CPF do aluno"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="address">Endereço do Responsável</label>
-              <input
-                id="address"
-                type="adress"
-                name="address"
-                placeholder="Endereço"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="address number">Número Endereço</label>
-              <input
-                id="address number"
-                type="address number"
-                name="address number"
-                placeholder="Número casa/apartamento"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="complement">Complemento</label>
-              <input
-                id="complement"
-                type="complement"
-                name="complement"
-                placeholder="Complemento"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="neighborhood">Bairro</label>
-              <input
-                id="neighborhood"
-                type="neighborhood"
-                name="neighborhood"
-                placeholder="Digite seu bairro"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="city">Cidade</label>
-              <input
-                id="city"
-                type="city"
-                name="city"
-                placeholder="Digite sua Cidade"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="birth">Data de Nascimento</label>
-              <input
-                id="birth"
-                type="birth"
-                name="birth"
-                placeholder="dd/mm/aaaa"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="school">Escola</label>
-              <input
-                id="school"
-                type="school"
-                name="school"
-                placeholder="Nome da Escola"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="series">Série/Ano</label>
-              <input
-                id="series"
-                type="series"
-                name="series"
-                placeholder="Sério ou Ano Escolar"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="responsible">Nome da(o) Responsável</label>
-              <input
-                id="responsible"
-                type="responsible"
-                name="responsible"
-                placeholder="Digite seu nome completo"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="rgresponsible">RG</label>
-              <input
-                id="rgresponsible"
-                type="rgresponsible"
-                name="rgresponsible"
-                placeholder="RG do Responsável"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="cpfresponsible">CPF</label>
-              <input
-                id="cpfresponsible"
-                type="cpfresponsible"
-                name="cpfresponsible"
-                placeholder="CPF do Responsável"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="wpp">Telefone/Whatsapp</label>
-              <input
-                id="wpp"
-                type="complement"
-                name="wpp"
-                placeholder="Número do Whatsapp"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="allergy">Alergia</label>
-              <!-- <input id="allergy" type="allergy" name="allergy" placeholder="Sim ou Não" > -->
-              <select>
-                <option value="Sim">Sim</option>
-                <option value="Nao">Não</option>
-              </select>
-            </div>
-
-            <div class="input-box">
-              <label for="whatallergy">Qual Alergia</label>
-              <input
-                id="whatallergy"
-                type="whatallergy"
-                name="whatallergy"
-                placeholder="Qual Alergia"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="asthma">Asma</label>
-              <input
-                id="asthma"
-                type="asthma"
-                name="asthma"
-                placeholder="Sim ou Não"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="bomb">Utiliza Bombinha</label>
-              <input
-                id="bomb"
-                type="bomb"
-                name="bomb"
-                placeholder="Sim ou Não"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="diabetes">Diabetes</label>
-              <input
-                id="diabetes"
-                type="diabetes"
-                name="diabetes"
-                placeholder="Sim ou Não"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="medicine">Toma Medicamento</label>
-              <input
-                id="medicine"
-                type="medicine"
-                name="medicine"
-                placeholder="Sim ou Não"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="whatmedic">Qual Medicamento</label>
-              <input
-                id="whatmedic"
-                type="whatmedic"
-                name="whatmedic"
-                placeholder="Qual Medicamento"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="observation">Observação</label>
-              <input
-                id="observation"
-                type="observation"
-                name="cobservation"
-                placeholder="Observação"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="core">Núcleo</label>
-              <input
-                id="core"
-                type="core"
-                name="core"
-                placeholder="Qual cidade"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="dayandtime">Dia e Horário</label>
-              <input
-                id="dayandtime"
-                type="dayandtime"
-                name="dayandtime"
-                placeholder="Ex: Seg e Qua as 15h"
-                
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="data">Data de hoje</label>
-              <input
-                id="data"
-                type="data"
-                name="data"
-                placeholder="dd/mm/aaaa"
-                
-              />
-            </div>
-          </div>
-
-          <div class="send-button">
-            <button><a href="#">Enviar</a></button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>
-  <script src="script.js"></script>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+            fetch('https://script.google.com/macros/s/AKfycby7jlHqLf7knqoOsilYBy7birqVHbC_5yEspOyMjS4CDSu6qG7cX9m-U7IAHMkhQ1mn1w/exec', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => response.json())
+            .then(result => {
+                alert('Dados enviados com sucesso!');
+                console.log(result);
+            })
+            .catch(error => {
+                alert('Erro ao enviar dados: ' + error.message);
+                console.error('Erro:', error);
+            });
+        });
+    </script>
+</body>
 </html>
