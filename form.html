@@ -1,159 +1,312 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylee.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylee.css" />
     <title>Formulário de cadastro</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="form">
-            <form action="#">
-                <div class="form-header">
-                    <div class="title">
-                        <hi>CADASTRE-SE</hi>
-                    </div>
-                </div>   
-                <div class="input-group">
-                    <div class="input-box">
-                        <label for="name">Nome do Aluno</label>
-                        <input id="name" type="text" name="name" placeholder="Digite seu nome completo" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="rg">RG Aluno</label>
-                        <input id="rg" type="text" name="rg" placeholder="Digite o RG do aluno" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="cpf">CPF Aluno</label>
-                        <input id="cpf" type="cpf" name="cpf" placeholder="Digite o CPF do aluno" required>
-                    </div>
+      <div class="form">
+        <form id="formulario">
+          <div class="form-header">
+            <div class="title">
+              <hi>CADASTRE-SE</hi>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-box">
+              <label for="name">Nome do Aluno</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Digite seu nome completo"
+                
+              />
+            </div>
+            <div class="input-box">
+              <label for="rg">RG Aluno</label>
+              <input
+                id="rg"
+                type="text"
+                name="rg"
+                placeholder="Digite o RG do aluno"
+                
+              />
+            </div>
+            <div class="input-box">
+              <label for="cpf">CPF Aluno</label>
+              <input
+                id="cpf"
+                type="cpf"
+                name="cpf"
+                placeholder="Digite o CPF do aluno"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="address">Endereço do Responsável</label>
-                        <input id="address" type="adress" name="address" placeholder="Endereço" required>
-                    </div>
+            <div class="input-box">
+              <label for="address">Endereço do Responsável</label>
+              <input
+                id="address"
+                type="adress"
+                name="address"
+                placeholder="Endereço"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="address number">Número Endereço</label>
-                        <input id="address number" type="address number" name="address number" placeholder="Número casa/apartamento" required>
-                    </div>
+            <div class="input-box">
+              <label for="address number">Número Endereço</label>
+              <input
+                id="address number"
+                type="address number"
+                name="address number"
+                placeholder="Número casa/apartamento"
+                
+              />
+            </div>
 
+            <div class="input-box">
+              <label for="complement">Complemento</label>
+              <input
+                id="complement"
+                type="complement"
+                name="complement"
+                placeholder="Complemento"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="complement">Complemento</label>
-                        <input id="complement" type="complement" name="complement" placeholder="Complemento" required>
-                    </div>
+            <div class="input-box">
+              <label for="neighborhood">Bairro</label>
+              <input
+                id="neighborhood"
+                type="neighborhood"
+                name="neighborhood"
+                placeholder="Digite seu bairro"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="neighborhood">Bairro</label>
-                        <input id="neighborhood" type="neighborhood" name="neighborhood" placeholder="Digite seu bairro" required>
-                    </div>
+            <div class="input-box">
+              <label for="city">Cidade</label>
+              <input
+                id="city"
+                type="city"
+                name="city"
+                placeholder="Digite sua Cidade"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="city">Cidade</label>
-                        <input id="city" type="city" name="city" placeholder="Digite sua Cidade" required>
-                    </div>
+            <div class="input-box">
+              <label for="birth">Data de Nascimento</label>
+              <input
+                id="birth"
+                type="birth"
+                name="birth"
+                placeholder="dd/mm/aaaa"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="birth">Data de Nascimento</label>
-                        <input id="birth" type="birth" name="birth" placeholder="dd/mm/aaaa" required>
-                    </div>
+            <div class="input-box">
+              <label for="school">Escola</label>
+              <input
+                id="school"
+                type="school"
+                name="school"
+                placeholder="Nome da Escola"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="school">Escola</label>
-                        <input id="school" type="school" name="school" placeholder="Nome da Escola" required>
-                    </div>
+            <div class="input-box">
+              <label for="series">Série/Ano</label>
+              <input
+                id="series"
+                type="series"
+                name="series"
+                placeholder="Sério ou Ano Escolar"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="series">Série/Ano</label>
-                        <input id="series" type="series" name="series" placeholder="Sério ou Ano Escolar" required>
-                    </div>
+            <div class="input-box">
+              <label for="responsible">Nome da(o) Responsável</label>
+              <input
+                id="responsible"
+                type="responsible"
+                name="responsible"
+                placeholder="Digite seu nome completo"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="responsible">Nome da(o) Responsável</label>
-                        <input id="responsible" type="responsible" name="responsible" placeholder="Digite seu nome completo" required>
-                    </div>
+            <div class="input-box">
+              <label for="rgresponsible">RG</label>
+              <input
+                id="rgresponsible"
+                type="rgresponsible"
+                name="rgresponsible"
+                placeholder="RG do Responsável"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="rgresponsible">RG</label>
-                        <input id="rgresponsible" type="rgresponsible" name="rgresponsible" placeholder="RG do Responsável" required>
-                    </div>
+            <div class="input-box">
+              <label for="cpfresponsible">CPF</label>
+              <input
+                id="cpfresponsible"
+                type="cpfresponsible"
+                name="cpfresponsible"
+                placeholder="CPF do Responsável"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="cpfresponsible">CPF</label>
-                        <input id="cpfresponsible" type="cpfresponsible" name="cpfresponsible" placeholder="CPF do Responsável" required>
-                    </div>
+            <div class="input-box">
+              <label for="wpp">Telefone/Whatsapp</label>
+              <input
+                id="wpp"
+                type="complement"
+                name="wpp"
+                placeholder="Número do Whatsapp"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="wpp">Telefone/Whatsapp</label>
-                        <input id="wpp" type="complement" name="wpp" placeholder="Número do Whatsapp" required>
-                    </div>
+            <div class="input-box">
+              <label for="allergy">Alergia</label>
+              <!-- <input id="allergy" type="allergy" name="allergy" placeholder="Sim ou Não" > -->
+              <select>
+                <option value="Sim">Sim</option>
+                <option value="Nao">Não</option>
+              </select>
+            </div>
 
-                    <div class="input-box">
-                        <label for="allergy">Alergia</label>
-                        <input id="allergy" type="allergy" name="allergy" placeholder="Sim ou Não" required>
-                    </div>
+            <div class="input-box">
+              <label for="whatallergy">Qual Alergia</label>
+              <input
+                id="whatallergy"
+                type="whatallergy"
+                name="whatallergy"
+                placeholder="Qual Alergia"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="whatallergy">Qual Alergia</label>
-                        <input id="whatallergy" type="whatallergy" name="whatallergy" placeholder="Qual Alergia" required>
-                    </div>
+            <div class="input-box">
+              <label for="asthma">Asma</label>
+              <input
+                id="asthma"
+                type="asthma"
+                name="asthma"
+                placeholder="Sim ou Não"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="asthma">Asma</label>
-                        <input id="asthma" type="asthma" name="asthma" placeholder="Sim ou Não" required>
-                    </div>
+            <div class="input-box">
+              <label for="bomb">Utiliza Bombinha</label>
+              <input
+                id="bomb"
+                type="bomb"
+                name="bomb"
+                placeholder="Sim ou Não"
+                
+              />
+            </div>
 
+            <div class="input-box">
+              <label for="diabetes">Diabetes</label>
+              <input
+                id="diabetes"
+                type="diabetes"
+                name="diabetes"
+                placeholder="Sim ou Não"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="bomb">Utiliza Bombinha</label>
-                        <input id="bomb" type="bomb" name="bomb" placeholder="Sim ou Não" required>
-                    </div>
+            <div class="input-box">
+              <label for="medicine">Toma Medicamento</label>
+              <input
+                id="medicine"
+                type="medicine"
+                name="medicine"
+                placeholder="Sim ou Não"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="diabetes">Diabetes</label>
-                        <input id="diabetes" type="diabetes" name="diabetes" placeholder="Sim ou Não" required>
-                    </div>
+            <div class="input-box">
+              <label for="whatmedic">Qual Medicamento</label>
+              <input
+                id="whatmedic"
+                type="whatmedic"
+                name="whatmedic"
+                placeholder="Qual Medicamento"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="medicine">Toma Medicamento</label>
-                        <input id="medicine" type="medicine" name="medicine" placeholder="Sim ou Não" required>
-                    </div>
+            <div class="input-box">
+              <label for="observation">Observação</label>
+              <input
+                id="observation"
+                type="observation"
+                name="cobservation"
+                placeholder="Observação"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="whatmedic">Qual Medicamento</label>
-                        <input id="whatmedic" type="whatmedic" name="whatmedic" placeholder="Qual Medicamento" required>
-                    </div>
+            <div class="input-box">
+              <label for="core">Núcleo</label>
+              <input
+                id="core"
+                type="core"
+                name="core"
+                placeholder="Qual cidade"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="observation">Observação</label>
-                        <input id="observation" type="observation" name="cobservation" placeholder="Observação" required>
-                    </div>
+            <div class="input-box">
+              <label for="dayandtime">Dia e Horário</label>
+              <input
+                id="dayandtime"
+                type="dayandtime"
+                name="dayandtime"
+                placeholder="Ex: Seg e Qua as 15h"
+                
+              />
+            </div>
 
-                    <div class="input-box">
-                        <label for="core">Núcleo</label>
-                        <input id="core" type="core" name="core" placeholder="Qual cidade" required>
-                    </div>
+            <div class="input-box">
+              <label for="data">Data de hoje</label>
+              <input
+                id="data"
+                type="data"
+                name="data"
+                placeholder="dd/mm/aaaa"
+                
+              />
+            </div>
+          </div>
 
-                    <div class="input-box">
-                        <label for="dayandtime">Dia e Horário</label>
-                        <input id="dayandtime" type="dayandtime" name="dayandtime" placeholder="Ex: Seg e Qua as 15h" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="data">Data de hoje</label>
-                        <input id="data" type="data" name="data" placeholder="dd/mm/aaaa" required>
-                    </div>
-                </div>
-                  
-                <div class="send-button">
-                    <button><a href="#">Enviar</a></button>
-                </div>
-             </form>  
-        </div>
+          <div class="send-button">
+            <button><a href="#">Enviar</a></button>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
+  <script src="script.js"></script>
 </html>

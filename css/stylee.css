@@ -54,12 +54,14 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1rem 0; 
+  width: 100%;
 }
 
 .input-box {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.1rem;
+
 }
 .input-box input {
   margin: 0.6rem;
@@ -67,6 +69,15 @@ body {
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1 px 6px #0000001c;
+}
+
+.input-box select {
+  margin: 0.6rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1 px 6px #0000001c;
+  width: 100%;
 }
 
 .input-box input:hover {
