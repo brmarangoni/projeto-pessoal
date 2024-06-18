@@ -8,11 +8,11 @@
 
 body {
    width: 100%;
-   height: 50vh;
+   height: 100vh;
    display: inline-flex; 
    justify-content: center;
    align-items: center;
-   background: #a3a3a3;
+   background: #4d7c0f;
 }
 
 .container {
